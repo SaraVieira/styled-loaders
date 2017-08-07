@@ -34,11 +34,11 @@ rm -rf styleguide/**/* || exit 0
 
 cd packages/styled-loaders-preact
 
-yarn i
+yarn install
 
 cd ../styled-loaders-react
 
-yarn i
+yarn install
 
 cd ../../
 
