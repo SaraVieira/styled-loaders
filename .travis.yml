@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-- stable
+  - stable
 
 script: bash ./deploy.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "openssl aes-256-cbc -K $encrypted_e6aba0d2bfcb_key -iv $encrypted_e6aba0d2bfcb_iv -in travis.pub.enc -out ~\/.ssh/travis.pub -d"
+  - ENCRYPTION_LABEL: "e6aba0d2bfcb"
   - COMMIT_AUTHOR_EMAIL: "hey@iamsaravieira.com"
