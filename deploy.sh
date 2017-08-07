@@ -31,6 +31,17 @@ cd ..
 rm -rf styleguide/**/* || exit 0
 
 # Run our compile script
+
+cd packages/styled-loaders-preact
+
+yarn i
+
+cd ../styled-loaders-react
+
+yarn i
+
+cd ../../
+
 npm run styleguide:build
 
 cd styleguide
