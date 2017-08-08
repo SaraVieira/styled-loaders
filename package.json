@@ -4,7 +4,10 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-1": "^6.24.1",
+    "jest": "^20.0.4",
+    "jest-serializer-html-string": "^1.0.1",
     "lerna": "^2.0.0",
+    "preact-render-to-string": "^3.6.3",
     "webpack": "^3.4.1"
   },
   "dependencies": {

@@ -1,0 +1,19 @@
+{
+    "env": {
+        "test": {
+            "presets": [
+                [
+                    "env"
+                ]
+            ],
+            "plugins": [
+                [
+                    "transform-react-jsx",
+                    {
+                        "pragma": "require('preact').h"
+                    }
+                ]
+            ]
+        }
+    }
+}

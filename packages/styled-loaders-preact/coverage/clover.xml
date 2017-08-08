@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1502228112608" clover="3.2.0">
+  <project timestamp="1502228112609" name="All files">
+    <metrics statements="20" coveredstatements="12" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0" elements="36" coveredelements="12" complexity="0" loc="20" ncloc="20" packages="2" files="3" classes="3">
+      <package name="components.DotScale">
+        <metrics statements="10" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <file name="index.js" path="/Users/saravieira/Projects/styled-loaders/packages/styled-loaders-preact/components/DotScale/index.js">
+          <metrics statements="10" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="utils">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="animations.js" path="/Users/saravieira/Projects/styled-loaders/packages/styled-loaders-preact/utils/animations.js">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+        </file>
+        <file name="defaults.js" path="/Users/saravieira/Projects/styled-loaders/packages/styled-loaders-preact/utils/defaults.js">
+          <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="1" type="cond" truecount="0" falsecount="2"/>
+          <line num="3" count="1" type="cond" truecount="0" falsecount="2"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

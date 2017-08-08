@@ -50,3 +50,39 @@ export const scale = keyframes`
     opacity: 0;
   }
 `;
+
+export const rotate = keyframes`
+   100% { transform: rotate(360deg);}
+`;
+
+export const bounce = keyframes`
+  0%, 100% { 
+    transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+  }
+`;
+
+export const dots = keyframes`
+  0%, 80%, 100% { 
+    transform: scale(0);
+  } 40% { 
+    transform: scale(1.0);
+  }
+`;
+
+export const circular = keyframes`
+  0%, 80%, 100% {
+    transform: scale(0);
+  } 40% {
+    transform: scale(1);
+  }
+`;
+
+export const grid = keyframes`
+  0%, 70%, 100% {
+    transform: scale3D(1, 1, 1);
+  } 35% {
+    transform: scale3D(0, 0, 1);
+  } 
+`;

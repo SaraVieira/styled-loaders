@@ -8,16 +8,23 @@
     "build": "preact build",
     "serve": "preact build && preact serve",
     "dev": "preact watch",
-    "test": "eslint src && preact test"
+    "test": "BABEL_ENV=test jest --no-cache",
+    "lint": "eslint src"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
   },
   "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
     "eslint": "^4.4.1",
     "eslint-config-synacor": "^1.0.2",
     "if-env": "^1.0.0",
-    "preact-cli": "^1.4.1"
+    "jest": "^20.0.4",
+    "jest-serializer-html-string": "^1.0.1",
+    "jest-styled-components": "^4.3.0",
+    "preact-cli": "^1.4.1",
+    "preact-render-to-string": "^3.6.3"
   },
   "dependencies": {
     "preact": "^8.2.1",
@@ -25,5 +32,13 @@
     "preact-router": "^2.5.5",
     "prop-types": "^15.5.10",
     "styled-components": "^2.1.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "snapshotSerializers": [
+      "jest-serializer-html-string"
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": ".coverage"
   }
 }
