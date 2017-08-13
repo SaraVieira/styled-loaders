@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Spinner from 'styled-loaders-common/styles/block';
+import styled from 'styled-components';
+import SpinnerStyles from 'styled-loaders-common/styles/block';
 
 const Block = ({ ...props }) => {
+  const Spinner = styled.div`${SpinnerStyles(props)};`;
+  
   return <Spinner {...props} />;
 };
 
