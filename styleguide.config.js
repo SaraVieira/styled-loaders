@@ -1,9 +1,8 @@
 module.exports = {
-  components: 'packages/styled-loaders-preact/components/**/*.js',
+  components: 'packages/styled-loaders-react/components/**/*.js',
   webpackConfig: {
      module: {
       rules: [
-        // Babel loader, will use your project’s .babelrc
         {
           test: /\.jsx?$/,
           exclude: /node_modules/,
@@ -11,11 +10,11 @@ module.exports = {
         }
       ]
     },
-    resolve: {
-      alias: {
-        react: 'preact-compat',
-        'react-dom': 'preact-compat'
-      }
-    }
+    // resolve: {
+    //   alias: {
+    //     react: 'preact-compat',
+    //     'react-dom': 'preact-compat'
+    //   }
+    // }
   }
 };

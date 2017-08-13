@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DotScale component should render 1`] = `"<[object Object]></[object Object]>"`;
+
+exports[`DotScale component should render 2`] = `"<[object Object] color=\\"#BADA55\\"></[object Object]>"`;
+
+exports[`DotScale component should render 3`] = `"<[object Object] duration=\\"0.2s\\"></[object Object]>"`;
+
+exports[`DotScale component should render 4`] = `"<[object Object] dotSize=\\"50px\\" size=\\"200px\\"></[object Object]>"`;
