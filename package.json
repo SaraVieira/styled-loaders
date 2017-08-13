@@ -8,7 +8,7 @@
     "jest-serializer-html-string": "^1.0.1",
     "lerna": "^2.0.0",
     "preact-render-to-string": "^3.6.3",
-    "webpack": "^3.4.1"
+    "webpack": "^3.5.4"
   },
   "dependencies": {
     "css-loader": "^0.28.4",
@@ -16,7 +16,7 @@
     "preact-compat": "^3.17.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-styleguidist": "^6.0.8",
+    "react-styleguidist": "^6.0.12",
     "style-loader": "^0.18.2"
   },
   "scripts": {

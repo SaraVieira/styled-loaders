@@ -2460,9 +2460,9 @@ escodegen@^1.6.1:
   optionalDependencies:
     source-map "~0.2.0"
 
-eslint-config-synacor@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-synacor/-/eslint-config-synacor-1.0.2.tgz#5d2ac93a1d310dbe276dbd9448a48342fa311a07"
+eslint-config-synacor@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-synacor/-/eslint-config-synacor-1.1.0.tgz#e4f2d91f7d9a6f668308639e2f01201c52bcc2be"
   dependencies:
     babel-eslint "^7.1.1"
     eslint-plugin-compat ">=1"
@@ -4106,9 +4106,9 @@ jest-snapshot@^20.0.3:
     natural-compare "^1.4.0"
     pretty-format "^20.0.3"
 
-jest-styled-components@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-4.3.0.tgz#3ba64eabe5e83e4f16f4e8db7b532a2fffb74b76"
+jest-styled-components@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-4.4.0.tgz#d1e2d8f07888f1b6b5affc45c0c53f7fb442b1d8"
   dependencies:
     css "^2.2.1"
 

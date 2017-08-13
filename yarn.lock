@@ -3876,9 +3876,9 @@ jss-global@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/jss-global/-/jss-global-2.0.0.tgz#a162f822f17e5d760151d908bdb41d7f2824c28f"
 
-jss-isolate@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/jss-isolate/-/jss-isolate-4.0.1.tgz#a9fd2ca251a7405a83a6cdc3daab3a496e5ed8bd"
+jss-isolate@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jss-isolate/-/jss-isolate-4.0.0.tgz#b33eb4f60f6e66fb8fd85f02dc25515c7b271302"
 
 jss-nested@^5.0.0:
   version "5.0.0"
@@ -5326,9 +5326,9 @@ react-icons@^2.2.5:
   dependencies:
     react-icon-base "2.0.7"
 
-react-styleguidist@^6.0.8:
-  version "6.0.8"
-  resolved "https://registry.yarnpkg.com/react-styleguidist/-/react-styleguidist-6.0.8.tgz#6a1afe9584af9a19376f0723a868d4d6a2a37fac"
+react-styleguidist@^6.0.12:
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/react-styleguidist/-/react-styleguidist-6.0.12.tgz#05909f25b7b30babcbee5c072464d1dd16eeeae2"
   dependencies:
     ast-types "^0.9.12"
     buble "^0.15.2"
@@ -5358,7 +5358,7 @@ react-styleguidist@^6.0.8:
     jss-compose "^4.0.0"
     jss-default-unit "^7.0.0"
     jss-global "^2.0.0"
-    jss-isolate "^4.0.0"
+    jss-isolate "4.0.0"
     jss-nested "^5.0.0"
     leven "^2.1.0"
     listify "^1.0.0"
@@ -6713,9 +6713,9 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.4.1.tgz#4c3f4f3fb318155a4db0cb6a36ff05c5697418f4"
+webpack@^3.5.4:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.4.tgz#5583eb263ed27b78b5bd17bfdfb0eb1b1cd1bf81"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
