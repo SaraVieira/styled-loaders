@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import SpinnerStyles from 'styled-loaders-common/styles/block';
 
 const Block = ({ ...props }) => {
-  const Spinner = styled.div`${SpinnerStyles(props)};`;
-  
-  return <Spinner {...props} />;
+  const Spinner = styled.div`${SpinnerStyles}`;
+
+  return <Spinner {...props} />
 };
 
 export default Block;

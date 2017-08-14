@@ -1,7 +1,9 @@
 module.exports = {
   components: 'packages/styled-loaders-react/components/**/*.js',
+  highlightTheme: 'duotone-dark',
+  title: 'Styled Loaders',
   webpackConfig: {
-     module: {
+    module: {
       rules: [
         {
           test: /\.jsx?$/,
@@ -9,12 +11,6 @@ module.exports = {
           loader: 'babel-loader'
         }
       ]
-    },
-    // resolve: {
-    //   alias: {
-    //     react: 'preact-compat',
-    //     'react-dom': 'preact-compat'
-    //   }
-    // }
-  }
+    }
+  },
 };
