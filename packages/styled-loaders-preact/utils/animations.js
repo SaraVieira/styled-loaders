@@ -1,9 +1,7 @@
 import { keyframes } from 'styled-components';
 
 export const rotateplane = keyframes`
-	0% {
-		transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-	}
+	0% { transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
 	50% {
 		transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
 	}

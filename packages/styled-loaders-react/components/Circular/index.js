@@ -1,103 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { circular } from 'styled-loaders-common/utils/animations';
-import { getSize, getColor } from 'styled-loaders-common/utils/defaults';
+import {
+  SpinnerStyles,
+  CircleStyles,
+  Circle2Styles,
+  Circle3Styles,
+  Circle4Styles,
+  Circle5Styles,
+  Circle6Styles,
+  Circle7Styles,
+  Circle8Styles,
+  Circle9Styles,
+  Circle10Styles,
+  Circle11Styles,
+  Circle12Styles
+} from 'styled-loaders-common/styles/circular';
+
+const Spinner = styled.div`${SpinnerStyles};`;
+const Circle = styled.div`${CircleStyles};`;
+const Circle2 = styled.div`${Circle2Styles};`;
+const Circle3 = styled.div`${Circle3Styles};`;
+const Circle4 = styled.div`${Circle4Styles};`;
+const Circle5 = styled.div`${Circle5Styles};`;
+const Circle6 = styled.div`${Circle6Styles};`;
+const Circle7 = styled.div`${Circle7Styles};`;
+const Circle8 = styled.div`${Circle8Styles};`;
+const Circle9 = styled.div`${Circle9Styles};`;
+const Circle10 = styled.div`${Circle10Styles};`;
+const Circle11 = styled.div`${Circle11Styles};`;
+const Circle12 = styled.div`${Circle12Styles};`;
 
 const Circular = ({ color, size }) => {
-  const Spinner = styled.div`
-    position: relative;
-    margin: 100px auto;
-    width: ${getSize(size)};
-    height: ${getSize(size)};
-  `;
-
-  const Circle = styled.div`
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-
-    &:before {
-      content: '';
-      display: block;
-      margin: 0 auto;
-      width: 15%;
-      height: 15%;
-      background-color: ${getColor(color)};
-      border-radius: 100%;
-      animation: ${circular} 1.2s infinite ease-in-out both;
-    }
-  `;
-
-  const Circle2 = Circle.extend`
-    transform: rotate(30deg);
-    &:before {
-      animation-delay: -1.1s;
-    }
-  `;
-  const Circle3 = Circle.extend`
-    transform: rotate(60deg);
-    &:before {
-      animation-delay: -1s;
-    }
-  `;
-  const Circle4 = Circle.extend`
-    transform: rotate(90deg);
-    &:before {
-      animation-delay: -0.9s;
-    }
-  `;
-  const Circle5 = Circle.extend`
-    transform: rotate(120deg);
-    &:before {
-      animation-delay: -0.8s;
-    }
-  `;
-  const Circle6 = Circle.extend`
-    transform: rotate(150deg);
-    &:before {
-      animation-delay: -0.7s;
-    }
-  `;
-  const Circle7 = Circle.extend`
-    transform: rotate(180deg);
-    &:before {
-      animation-delay: -0.6s;
-    }
-  `;
-  const Circle8 = Circle.extend`
-    transform: rotate(210deg);
-    &:before {
-      animation-delay: -0.5s;
-    }
-  `;
-  const Circle9 = Circle.extend`
-    transform: rotate(240deg);
-    &:before {
-      animation-delay: -0.4s;
-    }
-  `;
-  const Circle10 = Circle.extend`
-    transform: rotate(270deg);
-    &:before {
-      animation-delay: -0.3s;
-    }
-  `;
-  const Circle11 = Circle.extend`
-    transform: rotate(300deg);
-    &:before {
-      animation-delay: -0.2s;
-    }
-  `;
-  const Circle12 = Circle.extend`
-    transform: rotate(330deg);
-    &:before {
-      animation-delay: -0.1s;
-    }
-  `;
-
   return (
     <Spinner size={size}>
       <Circle color={color} />

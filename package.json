@@ -1,9 +1,17 @@
 {
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-synacor": "^1.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.2.1",
     "jest": "^20.0.4",
     "jest-serializer-html-string": "^1.0.1",
     "lerna": "^2.0.0",
@@ -11,16 +19,15 @@
     "webpack": "^3.5.4"
   },
   "dependencies": {
-    "css-loader": "^0.28.4",
     "preact": "^8.2.1",
     "preact-compat": "^3.17.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-styleguidist": "^6.0.12",
-    "style-loader": "^0.18.2"
+    "react-styleguidist": "^6.0.12"
   },
   "scripts": {
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "lint": "eslint 'packages/common/styles/*.js' 'packages/common/utils/*.js' 'packages/styled-loaders-preact/components/*.js' 'packages/styled-loaders-react/components/*.js'"
   }
 }
