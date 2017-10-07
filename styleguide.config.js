@@ -1,8 +1,14 @@
 module.exports = {
-  components: 'packages/styled-loaders-react/components/**/*.js',
+  components: 'src/components/**/*.js',
   highlightTheme: 'duotone-dark',
   title: 'Styled Loaders',
   webpackConfig: {
+    resolve: {
+      alias: {
+        'react': 'preact-compat',
+        'react-dom': 'preact-compat',
+      }
+    },
     module: {
       rules: [
         {

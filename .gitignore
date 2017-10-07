@@ -4,10 +4,10 @@
 /node_modules
 
 # testing
-/coverage
+/.overage
 
 # production
-/styleguide
+/build
 
 # misc
 .DS_Store

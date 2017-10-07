@@ -3,22 +3,23 @@
         "babel-preset-stage-1",
         [
             "env",
-            {
+               {
                 "targets": {
-                    "browsers": [
-                        "last 2 versions",
-                        "safari >= 7"
-                    ]
+                        "browsers": [
+                            "last 2 versions",
+                            "safari >= 7"
+                        ]
+                    }
                 }
-            }
         ]
     ],
-    "plugins": [
-        [
-            "transform-react-jsx",
-            // {
-            //     "pragma": "h"
-            // }
-        ]
+"plugins": [
+    [
+        "transform-react-jsx",
+        {
+            "pragma": "h"
+        }
     ]
+]
 }
+
