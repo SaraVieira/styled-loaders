@@ -28,6 +28,21 @@ const Page = ({ loading }) =>
     </main>
 
 ```
+### With Props
+
+```js
+import { h } from 'preact'
+import { Block } from 'styled-loaders'
+
+const Page = ({ loading }) =>
+    <main>
+        { loading ?
+            <Block color="red" size="60px" duration="5s" />
+            : 'Your Content'
+        }
+    </main>
+
+```
 
 ### Loaders
 
