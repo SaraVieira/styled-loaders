@@ -5,6 +5,8 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![npm version](https://badge.fury.io/js/styled-loaders.svg)](https://badge.fury.io/js/styled-loaders)
 
+## [Demo](https://styled-loaders.now.sh/)
+
 Loaders Built with Preact and Styled Components ready for your next project because no one deserves to have to writes loadings all the time.
 
 Credits and inspiration also belong heavily to the awesome work at  [SpinkKit](http://tobiasahlin.com/spinkit/)
