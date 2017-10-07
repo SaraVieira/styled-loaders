@@ -21,11 +21,11 @@ const Pulsate = ({ color, duration, size }) => {
 		position: absolute;
 		top: 0;
 		left: 0;
-		animation: ${pulsate} 2.0s infinite ease-in-out;
+		animation: ${pulsate} 2s infinite ease-in-out;
 		animation-duration: ${props => (props.duration ? props.duration : '2.0s')};
 	`
 
-    const Bounce2 = DefaultBounce.extend`animation-delay: -1.0s;`
+    const Bounce2 = DefaultBounce.extend` animation-delay: -1s; `
 
     return (
         <Spinner size={size}>

@@ -13,76 +13,108 @@ export const rotateplane = keyframes`
 `
 
 export const pulsate = keyframes`
-  0%, 100% { 
-    transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
   }
 `
 
 export const stretch = keyframes`
-  0%, 40%, 100% { 
+  0%,
+  40%,
+  100% {
     transform: scaleY(0.4);
-  }  20% { 
-    transform: scaleY(1.0);
+  }
+
+  20% {
+    transform: scaleY(1);
 	}
 `
 
 export const cube = keyframes`
-  25% { 
+  25% {
     transform: translateX(42px) rotate(-90deg) scale(0.5);
-  } 50% { 
+  }
+
+  50% {
     transform: translateX(42px) translateY(42px) rotate(-179deg);
-  } 50.1% { 
+  }
+
+  50.1% {
     transform: translateX(42px) translateY(42px) rotate(-180deg);
-  } 75% { 
-    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-  } 100% { 
+  }
+
+  75% {
+    transform: translateX(0) translateY(42px) rotate(-270deg) scale(0.5);
+  }
+
+  100% {
     transform: rotate(-360deg);
   }
 `
 
 export const scale = keyframes`
-  0% { 
+  0% {
     transform: scale(0);
-  } 100% {
-    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(1);
     opacity: 0;
   }
 `
 
 export const rotate = keyframes`
-   100% { transform: rotate(360deg);}
+   100% { transform: rotate(360deg); }
 `
 
 export const bounce = keyframes`
-  0%, 100% { 
-    transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
   }
 `
 
 export const dots = keyframes`
-  0%, 80%, 100% { 
+  0%,
+  80%,
+  100% {
     transform: scale(0);
-  } 40% { 
-    transform: scale(1.0);
+  }
+
+  40% {
+    transform: scale(1);
   }
 `
 
 export const circular = keyframes`
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     transform: scale(0);
-  } 40% {
+  }
+
+  40% {
     transform: scale(1);
   }
 `
 
 export const grid = keyframes`
-  0%, 70%, 100% {
+  0%,
+  70%,
+  100% {
     transform: scale3D(1, 1, 1);
-  } 35% {
+  }
+
+  35% {
     transform: scale3D(0, 0, 1);
-  } 
+  }
 `

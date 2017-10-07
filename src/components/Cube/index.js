@@ -19,11 +19,11 @@ const Cube = ({ color, duration, size, cubeSize }) => {
 		top: 0;
 		left: 0;
 		background-color: ${getColor(color)};
-		animation: ${cube} 2.0s infinite ease-in-out;
+		animation: ${cube} 2s infinite ease-in-out;
 		animation-duration: ${props => (props.duration ? props.duration : '1.8s')};
 	`
 
-    const StyledCube = DefaultCube.extend`animation-delay: -0.9s;`
+    const StyledCube = DefaultCube.extend` animation-delay: -0.9s; `
 
     return (
         <Spinner size={size}>

@@ -23,9 +23,9 @@ const DotScale = ({ color, duration, size, dotSize }) => {
 		animation-duration: ${props => (props.duration ? props.duration : '1.4s')};
 	`
 
-    const Dot1 = DefaultDot.extend`animation-delay: -0.32s;`
+    const Dot1 = DefaultDot.extend` animation-delay: -0.32s; `
 
-    const Dot2 = DefaultDot.extend`animation-delay: -0.16s;`
+    const Dot2 = DefaultDot.extend` animation-delay: -0.16s; `
 
     return (
         <Spinner size={size}>

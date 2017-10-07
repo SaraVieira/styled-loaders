@@ -27,25 +27,25 @@ const CubeGrid = ({ color, size }) => {
 		animation-delay: 0.3s;
 	`
     const Cube3 = Cube.extend`
-		animation-delay: 0.4s
+		animation-delay: 0.4s;
 	`
     const Cube4 = Cube.extend`
-		animation-delay: 0.1s
+		animation-delay: 0.1s;
 	`
     const Cube5 = Cube.extend`
-		animation-delay: 0.2s
+		animation-delay: 0.2s;
 	`
     const Cube6 = Cube.extend`
-		animation-delay: 0.3s
+		animation-delay: 0.3s;
 	`
     const Cube7 = Cube.extend`
-		animation-delay: 0s
+		animation-delay: 0s;
 	`
     const Cube8 = Cube.extend`
-		animation-delay: 0.1s
+		animation-delay: 0.1s;
 	`
     const Cube9 = Cube.extend`
-		animation-delay: 0.2s
+		animation-delay: 0.2s;
 	`
 
     return (

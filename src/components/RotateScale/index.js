@@ -11,7 +11,7 @@ const RotateScale = ({ color, duration, size }) => {
 		width: ${getSize(size)};
 		height: ${getSize(size)};
 		text-align: center;
-		animation: ${rotate} 2.0s infinite ease-in-out;
+		animation: ${rotate} 2s infinite ease-in-out;
 		animation-duration: ${props => (props.duration ? props.duration : '2s')};
 	`
 
@@ -23,14 +23,14 @@ const RotateScale = ({ color, duration, size }) => {
 		top: 0;
 		border-radius: 100%;
 		background-color: ${getColor(color)};
-		animation: ${bounce} 2.0s infinite ease-in-out;
+		animation: ${bounce} 2s infinite ease-in-out;
 		animation-duration: ${props => (props.duration ? props.duration : '2s')};
 	`
 
     const Cube = DefaultCube.extend`
 		top: auto;
 		bottom: 0;
-		animation-delay: -1.0s;
+		animation-delay: -1s;
 	`
 
     return (

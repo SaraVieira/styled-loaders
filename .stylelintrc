@@ -5,7 +5,8 @@
     "stylelint-config-styled-components"
   ],
   rules: {
-    "indentation": [ 2, "tab" ],
+    "indentation": null,
+    "function-name-case": null
   },
   "syntax": "scss"
 }
