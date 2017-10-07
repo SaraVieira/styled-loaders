@@ -3,9 +3,10 @@
 <!-- [![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/styled-loaders) -->
 [![Build Status](https://travis-ci.org/SaraVieira/styled-loaders.svg?branch=master)](https://travis-ci.org/SaraVieira/styled-loaders)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![npm version](https://badge.fury.io/js/styled-loaders.svg)](https://badge.fury.io/js/styled-loaders)
+[![npm version](https://badge.fury.io/js/styled-loaders.svg)](https://npmjs.com/styled-loaders)
 
 ## [Demo](https://styled-loaders.now.sh/)
+## [NPM](https://npmjs.com/styled-loaders)
 
 Loaders Built with Preact and Styled Components ready for your next project because no one deserves to have to writes loadings all the time.
 
@@ -14,6 +15,12 @@ Credits and inspiration also belong heavily to the awesome work at  [SpinkKit](h
 As I work on more projects over time more and more loaders will be added here.
 
 ## Usage
+
+```
+npm i styled loaders
+or
+yarn add styled-loaders
+```
 
 ```js
 import { h } from 'preact'
