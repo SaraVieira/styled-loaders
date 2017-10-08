@@ -10,7 +10,7 @@
 
 Loaders Built with Preact and Styled Components ready for your next project because no one deserves to have to writes loadings all the time.
 
-Credits and inspiration also belong heavily to the awesome work at  [SpinkKit](http://tobiasahlin.com/spinkit/)
+Credits and inspiration also belong heavily to the awesome work at  [SpinKit](http://tobiasahlin.com/spinkit/)
 
 As I work on more projects over time more and more loaders will be added here.
 
