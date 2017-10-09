@@ -4,6 +4,12 @@
   "main": "lib/index.js",
   "license": "MIT",
   "author": "Sara Vieira",
+  "files": [
+    "lib",
+    "Readme.md",
+    "package.json",
+    "yarn.lock"
+  ],
   "scripts": {
     "start": "styleguidist server",
     "build": "styleguidist build",
