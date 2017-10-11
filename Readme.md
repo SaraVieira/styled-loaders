@@ -17,7 +17,7 @@ As I work on more projects over time more and more loaders will be added here.
 ## Usage
 
 ```
-npm i styled loaders
+npm i styled-loaders
 or
 yarn add styled-loaders
 ```
