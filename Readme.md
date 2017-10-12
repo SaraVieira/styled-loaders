@@ -10,7 +10,7 @@
 
 Loaders Built with Preact and Styled Components ready for your next project because no one deserves to have to writes loadings all the time.
 
-If you are looking for a React version you can find one [here](https://github.com/saisandeepvaddi) by the awesome [Sai Sandeep Vaddi](https://github.com/saisandeepvaddi)
+If you are looking for a React version you can find one [here](https://github.com/saisandeepvaddi/styled-loaders-react) by the awesome [Sai Sandeep Vaddi](https://github.com/saisandeepvaddi)
 
 Credits and inspiration also belong heavily to the awesome work at  [SpinKit](http://tobiasahlin.com/spinkit/)
 
