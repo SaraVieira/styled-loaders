@@ -5,6 +5,10 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![npm version](https://badge.fury.io/js/styled-loaders.svg)](https://npmjs.com/styled-loaders)
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/styled-loaders'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/styled-loaders.svg' />
+</a>
+
 ## [Demo](https://styled-loaders.now.sh/)
 ## [NPM](https://npmjs.com/styled-loaders)
 
