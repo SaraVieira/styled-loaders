@@ -118,3 +118,13 @@ export const grid = keyframes`
     transform: scale3D(0, 0, 1);
   }
 `
+
+export const bar = keyframes`
+	0% {
+		left: calc(50% - 100px);
+	}
+
+	100% {
+		left: calc(50% - -50px);
+	}
+`

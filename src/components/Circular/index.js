@@ -10,8 +10,7 @@ const Circular = ({ color, size }) => {
 		margin: 100px auto;
 		width: ${getSize(size)};
 		height: ${getSize(size)};
-	`
-
+		` 
     const Circle = styled.div`
 		width: 100%;
 		height: 100%;
