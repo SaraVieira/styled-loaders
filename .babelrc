@@ -19,7 +19,11 @@
         {
             "pragma": "h"
         }
+    ],
+    [
+      "transform-react-remove-prop-types", {
+        "ignoreFilenames": ["node_modules"]
+      }
     ]
 ]
 }
-
