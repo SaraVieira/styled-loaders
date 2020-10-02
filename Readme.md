@@ -16,7 +16,7 @@ If you are looking for a React version you can find one [here](https://github.co
 
 Credits and inspiration also belong heavily to the awesome work at  [SpinKit](http://tobiasahlin.com/spinkit/)
 
-As I work on more projects over time more and more loaders will be added here.
+As I work on more projects over time more, more loaders will be added here.
 
 ## Usage
 
